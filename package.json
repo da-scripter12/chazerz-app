@@ -1,0 +1,29 @@
+{
+  "name": "chazerz.game",
+  "version": "1.0.0",
+  "description": "a game where you chaze the balloon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "Gojira",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^44.3.0"
+  },
+  "dependencies": {
+    "@nxenjs/discord-rich-presence": "^1.0.0",
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
